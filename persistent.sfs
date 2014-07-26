@@ -3,13 +3,13 @@ GAME
 	version = 0.24.2
 	Title = tbag (SANDBOX)
 	Description = No description available.
-	linkURL =
-	linkCaption =
+	linkURL = 
+	linkCaption = 
 	Mode = SANDBOX
 	Status = 1
 	scene = 5
 	flag = Squad/Flags/default
-	launchID = 2
+	launchID = 3
 	PARAMETERS
 	{
 		FLIGHT
@@ -40,7 +40,7 @@ GAME
 			CanLeaveToSpaceCenter = True
 			CanLeaveToMainMenu = False
 			startUpMode = 0
-			craftFileToLoad =
+			craftFileToLoad = 
 		}
 		TRACKINGSTATION
 		{
@@ -124,8 +124,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.24.2
-		UT = 3604.94162109354
-		activeVessel = 1
+		UT = 5013.91056641965
+		activeVessel = 0
 		VESSEL
 		{
 			pid = 3a1a155daacc4ad3822b73a2d9fcb90c
@@ -133,7 +133,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 0
 			lct = 0
@@ -182,8 +182,8 @@ GAME
 				state = 1
 				connected = True
 				attached = True
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -211,34 +211,34 @@ GAME
 			type = Probe
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
-			met = 3590.72162109354
+			met = 4558.29056641001
 			lct = 14.2199999999998
 			root = 0
-			lat = -82.3770453458206
-			lon = 213.917764427064
-			alt = 77721.2249357625
+			lat = 75.3624164730218
+			lon = 25.3740399505137
+			alt = 76351.2178408895
 			hgt = -1
-			nrm = 0.1166877,0.08162394,-0.9898088
-			rot = 0.9540266,0.03706014,0.05279601,0.2926982
-			CoM = -2.161597E-08,-0.338216,-2.43669E-08
+			nrm = 0.8790942,0.4580138,0.1319731
+			rot = 0.5836721,0.7556441,0.2190504,0.200863
+			CoM = -1.292857E-06,-0.3371321,-2.110486E-06
 			stg = 0
 			prst = False
 			ref = 4228168433
 			ctrl = True
-			cPch = -0.4239999
-			cHdg = 0.1416847
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
-				SMA = 677301.590100999
-				ECC = 0.00111376455668234
-				INC = 87.9712689898001
-				LPE = 41.1778891826117
-				LAN = 19.347955011123
-				MNA = 1.90455875013761
-				EPH = 1083.02014404276
+				SMA = 676430.323309463
+				ECC = 0.000132532390397792
+				INC = 87.9778106837932
+				LPE = 76.641494916113
+				LAN = 19.3523413161979
+				MNA = 0.486170306841211
+				EPH = 4572.51056641001
 				REF = 1
 			}
 			PART
@@ -260,13 +260,13 @@ GAME
 				attN = bottom, 3
 				attN = top, 1
 				mass = 0.1
-				temp = -143.1954
+				temp = -126.9741
 				expt = 0
 				state = 1
 				connected = True
 				attached = True
 				flag = Squad/Flags/default
-				rTrf = probeStackSmall
+				rTrf = probeStackSmall (Untitled Space Craft)
 				modCost = 0
 				EVENTS
 				{
@@ -312,7 +312,7 @@ GAME
 				{
 					name = ModuleReactionWheel
 					isEnabled = True
-					stateString = Operational
+					stateString = Not enough ElectricCharge
 					WheelState = Active
 					EVENTS
 					{
@@ -414,7 +414,7 @@ GAME
 				attN = top, 2
 				attN = bottom, 0
 				mass = 0.05
-				temp = -141.7731
+				temp = -125.7135
 				expt = 0.5
 				state = 1
 				connected = True
@@ -447,7 +447,7 @@ GAME
 				srfN = None, -1
 				attN = bottom01, 1
 				mass = 0.1
-				temp = -141.0807
+				temp = -125.0981
 				expt = 0.5
 				state = 1
 				connected = True
@@ -481,7 +481,7 @@ GAME
 				attN = top, 4
 				attN = bottom, 0
 				mass = 0.05
-				temp = -141.7972
+				temp = -125.7334
 				expt = 0.5
 				state = 1
 				connected = True
@@ -515,7 +515,7 @@ GAME
 				attN = top, 3
 				attN = bottom, 5
 				mass = 0.01
-				temp = -141.4818
+				temp = -125.4563
 				expt = 0.5
 				state = 1
 				connected = True
@@ -532,7 +532,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 67.2381511898911
+					amount = 35.8290696246664
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -559,7 +559,7 @@ GAME
 				attN = top, 4
 				attN = bottom, 6
 				mass = 0.05
-				temp = -141.5893
+				temp = -125.5514
 				expt = 0.5
 				state = 1
 				connected = True
@@ -576,7 +576,7 @@ GAME
 				RESOURCE
 				{
 					name = MonoPropellant
-					amount = 24.3759466380216
+					amount = 24.0948642981858
 					maxAmount = 50
 					flowState = True
 					isTweakable = True
@@ -603,7 +603,7 @@ GAME
 				attN = None, -1
 				attN = bottom, 5
 				mass = 0.02
-				temp = -140.9873
+				temp = -125.0159
 				expt = 0.5
 				state = 1
 				connected = True
@@ -747,7 +747,7 @@ GAME
 				sym = 9
 				srfN = srfAttach, 5
 				mass = 0.05
-				temp = -140.8159
+				temp = -124.8662
 				expt = 0.5
 				state = 1
 				connected = True
@@ -819,7 +819,7 @@ GAME
 				sym = 9
 				srfN = srfAttach, 5
 				mass = 0.05
-				temp = -140.6508
+				temp = -124.7173
 				expt = 0.5
 				state = 1
 				connected = True
@@ -891,7 +891,7 @@ GAME
 				sym = 8
 				srfN = srfAttach, 5
 				mass = 0.05
-				temp = -140.4833
+				temp = -124.5689
 				expt = 0.5
 				state = 1
 				connected = True
@@ -967,7 +967,7 @@ GAME
 				srfN = srfAttach, 0
 				attN = None, -1
 				mass = 0.005
-				temp = -141.446
+				temp = -125.422
 				expt = 0.5
 				state = 1
 				connected = True
@@ -1068,7 +1068,7 @@ GAME
 				srfN = srfAttach, 0
 				attN = None, -1
 				mass = 0.005
-				temp = -141.2789
+				temp = -125.2745
 				expt = 0.5
 				state = 1
 				connected = True
@@ -1169,7 +1169,7 @@ GAME
 				srfN = srfAttach, 0
 				attN = None, -1
 				mass = 0.005
-				temp = -141.1126
+				temp = -125.1271
 				expt = 0.5
 				state = 1
 				connected = True
@@ -1270,7 +1270,7 @@ GAME
 				srfN = srfAttach, 0
 				attN = None, -1
 				mass = 0.005
-				temp = -140.9477
+				temp = -124.9801
 				expt = 0.5
 				state = 1
 				connected = True
@@ -1371,7 +1371,7 @@ GAME
 				srfN = srfAttach, 0
 				attN = None, -1
 				mass = 0.005
-				temp = -140.7822
+				temp = -124.8338
 				expt = 0.5
 				state = 1
 				connected = True
@@ -1472,7 +1472,7 @@ GAME
 				srfN = srfAttach, 0
 				attN = None, -1
 				mass = 0.005
-				temp = -140.6169
+				temp = -124.6876
 				expt = 0.5
 				state = 1
 				connected = True
@@ -1570,7 +1570,7 @@ GAME
 				sym = 19
 				srfN = srfAttach, 0
 				mass = 0.05
-				temp = -140.4531
+				temp = -124.5417
 				expt = 0.5
 				state = 1
 				connected = True
@@ -1643,7 +1643,7 @@ GAME
 				sym = 19
 				srfN = srfAttach, 0
 				mass = 0.05
-				temp = -140.2879
+				temp = -124.396
 				expt = 0.5
 				state = 1
 				connected = True
@@ -1716,7 +1716,7 @@ GAME
 				sym = 19
 				srfN = srfAttach, 0
 				mass = 0.05
-				temp = -140.124
+				temp = -124.2506
 				expt = 0.5
 				state = 1
 				connected = True
@@ -1789,7 +1789,7 @@ GAME
 				sym = 18
 				srfN = srfAttach, 0
 				mass = 0.05
-				temp = -139.9612
+				temp = -124.1055
 				expt = 0.5
 				state = 1
 				connected = True
@@ -1847,8 +1847,8 @@ GAME
 				Stage = True, 345.512224121111
 				Gear = True, 0
 				Light = True, 405.032224121057
-				RCS = True, 400.912224121061
-				SAS = True, 13.7199999999998
+				RCS = False, 4458.67056640752
+				SAS = True, 4432.37056640695
 				Brakes = False, 0
 				Abort = False, 0
 				Custom01 = False, 0
@@ -1875,9 +1875,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = 0
-				yaw = 0
-				roll = 0
+				pitch = 0.01257286
+				yaw = -0.004021373
+				roll = 3.392359E-05
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -1891,7 +1891,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 24.3599999999996
 			lct = 24.3599999999996
@@ -1940,8 +1940,8 @@ GAME
 				state = 1
 				connected = True
 				attached = True
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1969,7 +1969,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 69.4000000000033
 			lct = 69.4000000000033
@@ -2018,8 +2018,8 @@ GAME
 				state = 1
 				connected = True
 				attached = True
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2047,7 +2047,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 99.4199999999974
 			lct = 99.4199999999974
@@ -2096,8 +2096,8 @@ GAME
 				state = 1
 				connected = True
 				attached = True
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2125,7 +2125,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 114.419999999994
 			lct = 114.419999999994
@@ -2174,8 +2174,8 @@ GAME
 				state = 1
 				connected = True
 				attached = True
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2203,7 +2203,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 338.839118652365
 			lct = 338.839118652365
@@ -2252,8 +2252,8 @@ GAME
 				state = 1
 				connected = True
 				attached = True
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2281,7 +2281,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 989.630205077996
 			lct = 989.630205077996
@@ -2330,8 +2330,8 @@ GAME
 				state = 1
 				connected = True
 				attached = True
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2364,7 +2364,7 @@ GAME
 			badS = True
 			state = Available
 			ToD = 0
-			idx = -1
+			idx = 0
 		}
 		KERBAL
 		{
